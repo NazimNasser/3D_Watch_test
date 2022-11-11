@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#root {
+    min-height: 4000px;
+}
+
 canvas {
-    height: 100vh !important;
+    min-height: 100vh !important;
 }
